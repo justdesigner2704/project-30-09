@@ -1,1 +1,80 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+}
+.header .fa-hat-cowboy {
+  margin: 20px;
+}
+.header ul {
+  float: right;
+  margin: 20px;
+}
+.header ul li {
+  margin-right: 80px;
+  list-style: none;
+  display: inline;
+}
+.header ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+.header .name {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 175px;
+}
+.container ul {
+  text-align: center;
+}
+.container ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 70px;
+}
+.container ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.container .slide1 img {
+  margin-top: 10px;
+}
+.container .slide1 .box {
+  position: absolute;
+  width: 20%;
+  background-color: antiquewhite;
+  padding: 20px;
+  margin-top: -170px;
+  margin-left: 20px;
+}
+
+.products {
+  margin-top: 60px;
+}
+.products h2 {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.products .img {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 20px;
+}
+footer h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: #000 2px solid;
+}/*# sourceMappingURL=style.css.map */
