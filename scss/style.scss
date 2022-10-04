@@ -1,3 +1,5 @@
+@import 'footer';
+
 * {
     margin: 0;
     padding: 0;
@@ -89,15 +91,7 @@
         margin-top: 20px;
     }
 }
-footer {
-    margin-top: 20px;
-    h2{
-        text-align: center;
-        padding-bottom: 30px;
-        border-bottom: #000 2px solid;
 
-    }
-}
 
 // font-family: 'Great Vibes', cursive;
 // font-family: 'Josefin Sans', sans-serif;
