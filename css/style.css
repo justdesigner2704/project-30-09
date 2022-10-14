@@ -6,11 +6,22 @@ footer h2 {
   padding-bottom: 30px;
   border-bottom: #000 2px solid;
 }
+@media (max-width: 400px) {
+  footer h2 {
+    padding-bottom: 20px;
+  }
+}
 footer .without {
   text-align: center;
   margin-top: 15px;
   font-size: 25px;
   font-family: "Josefin Sans", sans-serif;
+}
+@media (max-width: 400px) {
+  footer .without {
+    font-size: 20px;
+    margin-top: 10px;
+  }
 }
 
 .footer {
@@ -18,32 +29,84 @@ footer .without {
   justify-content: space-around;
   margin-top: 30px;
 }
+@media (max-width: 400px) {
+  .footer {
+    margin-top: 20px;
+    width: 390px;
+  }
+}
 
 .first__column ul {
   list-style: none;
   font-size: 20px;
 }
+@media (max-width: 400px) {
+  .first__column ul {
+    font-size: 10px;
+  }
+}
 .first__column ul li {
   margin-top: 10px;
+}
+@media (max-width: 400px) {
+  .first__column ul li {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 400px) {
+  .first__column {
+    visibility: hidden;
+    width: 0;
+  }
 }
 
 .second_column p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
 }
+@media (max-width: 400px) {
+  .second_column p {
+    font-size: 15px;
+  }
+}
 .second_column #fname {
   padding: 5px 25px 5px 8px;
   margin-top: 10px;
   font-family: "Josefin Sans", sans-serif;
+}
+@media (max-width: 400px) {
+  .second_column #fname {
+    margin-top: 5px;
+    padding: 3px 10px 3px 5px;
+    display: block;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
 }
 .second_column #sname {
   padding: 5px 20px 5px 8px;
   margin-top: 10px;
   margin-left: 5px;
 }
+@media (max-width: 400px) {
+  .second_column #sname {
+    padding: 3px 10px 3px 4px;
+    display: block;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+}
 .second_column #email {
   padding: 5px 40px 5px 8px;
   margin-top: 15px;
+}
+@media (max-width: 400px) {
+  .second_column #email {
+    padding: 3px 20px 3px 5px;
+    margin-top: -5px;
+    display: block;
+    margin-left: 90px;
+  }
 }
 .second_column #signup {
   padding: 10px 35px 10px 35px;
@@ -54,15 +117,47 @@ footer .without {
   border: none;
   margin-top: 15px;
 }
+@media (max-width: 400px) {
+  .second_column #signup {
+    display: block;
+    margin-left: 90px;
+  }
+}
 
 .social {
   margin-top: 20px;
   margin-left: -15px;
 }
+@media (max-width: 400px) {
+  .social {
+    margin-top: 25px;
+    margin-left: -10px;
+  }
+}
 .social li {
   list-style: none;
   display: inline;
   margin-left: 15px;
+}
+@media (max-width: 400px) {
+  .social li {
+    margin-left: 10px;
+    width: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .third_column {
+    visibility: hidden;
+    width: 0;
+  }
+}
+.third_column ul {
+  list-style: none;
+}
+.third_column ul li {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 * {
@@ -70,26 +165,61 @@ footer .without {
   padding: 0;
 }
 
+@media (max-width: 400px) {
+  body {
+    height: 900px;
+  }
+}
+
 .header {
   height: 50px;
   width: 100%;
 }
+@media (max-width: 400px) {
+  .header {
+    height: 25px;
+  }
+}
 .header .fa-hat-cowboy {
   margin: 20px;
+}
+@media (max-width: 400px) {
+  .header .fa-hat-cowboy {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 5px;
+    height: 10px;
+  }
 }
 .header ul {
   float: right;
   margin: 20px;
+}
+@media (max-width: 400px) {
+  .header ul {
+    margin-top: 25px;
+    margin-left: 2px;
+  }
 }
 .header ul li {
   margin-right: 80px;
   list-style: none;
   display: inline;
 }
+@media (max-width: 400px) {
+  .header ul li {
+    margin-right: 7px;
+  }
+}
 .header ul li a {
   font-size: 20px;
   text-decoration: none;
   color: #333;
+}
+@media (max-width: 400px) {
+  .header ul li a {
+    font-size: 18px;
+  }
 }
 .header .name {
   text-align: center;
@@ -97,9 +227,20 @@ footer .without {
   font-size: 60px;
   margin-top: 20px;
 }
+@media (max-width: 400px) {
+  .header .name {
+    font-size: 35px;
+    margin-top: 10px;
+  }
+}
 
 .container {
   margin-top: 175px;
+}
+@media (max-width: 400px) {
+  .container {
+    margin-top: 110px;
+  }
 }
 .container ul {
   text-align: center;
@@ -109,12 +250,22 @@ footer .without {
   display: inline;
   margin-right: 70px;
 }
+@media (max-width: 400px) {
+  .container ul li {
+    margin-right: 15px;
+  }
+}
 .container ul li a {
   text-decoration: none;
   color: #333;
 }
 .container .slide1 img {
   margin-top: 10px;
+}
+@media (max-width: 400px) {
+  .container .slide1 img {
+    width: 390px;
+  }
 }
 .container .slide1 .box {
   position: absolute;
@@ -124,9 +275,19 @@ footer .without {
   margin-top: -170px;
   margin-left: 20px;
 }
+@media (max-width: 400px) {
+  .container .slide1 .box {
+    visibility: hidden;
+  }
+}
 
 .products {
   margin-top: 60px;
+}
+@media (max-width: 400px) {
+  .products {
+    margin-top: 30px;
+  }
 }
 .products h2 {
   font-family: "Josefin Sans", sans-serif;
@@ -135,4 +296,10 @@ footer .without {
 .products .img {
   text-align: center;
   margin-top: 20px;
+}
+@media (max-width: 400px) {
+  .products .img img {
+    margin-top: 10px;
+    width: 110px;
+  }
 }/*# sourceMappingURL=style.css.map */
